@@ -36,5 +36,5 @@ plt.ylim(-5, 20)
 plt.xlabel("X")
 plt.ylabel("Y")
 plt.title("Visual codeword")
-plt.show()
+plt.show() # DATABIZ
 
