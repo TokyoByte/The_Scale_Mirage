@@ -38,3 +38,18 @@ plt.ylabel("Y")
 plt.title("Visual codeword")
 plt.show() # DATABIZ
 
+#-------------------Extracting the desired value--------------#
+
+x_true = []
+y_true = []
+
+for i in x:
+    if i >= -5 and i <= 20:
+        x_true.append(i)
+
+for i in y:
+    if i >= -5 and i <= 20:
+        y_true.append(i)
+
+plt.scatter(x_true, y_true)
+plt.show()
